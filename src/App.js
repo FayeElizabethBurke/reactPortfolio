@@ -31,8 +31,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={icon} className="App-logo" alt="logo" />
+        <div className="box" />
       </header>
-      <div className="box" ></div>
+      <div className="box" />
 
       {/* bio */}
       <FadeInSection>
@@ -40,50 +41,54 @@ function App() {
           <p>I'm a web developer based in Manchester.</p>
           <p>I write clean, straight-forward, clever applications.</p>
           <p>Talk to me!</p>
+          <div className="links">
+            <a href="https://github.com/FayeElizabethBurke" >
+              <img src={gitLogo} alt={"#"} height={'50px'} />
+            </a>
+            <a href="https://www.linkedin.com/in/faye-burke-360138149/">
+              <img src={linkedinLogo} alt={"#"} height={'50px'} />
+            </a>
+            <a href="https://www.codewars.com/users/FayeElizabethBurke">
+              <img src={codewarsLogo} alt={"#"} height={'50px'} />
+            </a>
+          </div>
 
-          <a href="https://github.com/FayeElizabethBurke" >
-          <img src={gitLogo} alt={"#"} height={'50px'}/>
-          </a>
-          <a href="https://www.linkedin.com/in/faye-burke-360138149/">
-            <img src={linkedinLogo} alt={"#"} height={'50px'}/>
-          </a>
-          <a href="https://www.codewars.com/users/FayeElizabethBurke">
-            <img src={codewarsLogo} alt={"#"} height={'50px'}/>
-          </a>
         </div>
-                 
 
       </FadeInSection>
 
-          {/* progress */}
-          <FadeInSection>
-            <div className="box" ></div>
-            <div className="skills">
-              <h2>Skills</h2>
-              <div className="skill">
-                <ProgressBar animated variant="success" now={60} label={`JavaScript`} />
-              </div>
-              <div className="skill">
-                <ProgressBar animated variant="info" now={65} label={`TestCafe`} />
-              </div>
-              <div className="skill">
-                <ProgressBar animated variant="warning" now={60} label={`NodeJS`} />
-              </div>
-              <div className="skill">
-                <ProgressBar animated variant="danger" now={50} label={`ReactJS`} />
-              </div>
-              <div className="skill">
-                <ProgressBar animated variant="success" now={50} label={`MongoDB`} />
-              </div>
-              <div className="skill">
-                <ProgressBar animated variant="info" now={80} label={`Git`} />
-              </div>
-            </div>
-          </FadeInSection>
 
-
+      {/* progress */}
+      <FadeInSection>
+        <div className="box" />
+        <div className="skills">
+          <h2>Skills</h2>
+          <div className="skill">
+            <ProgressBar animated variant="success" now={60} label={`JavaScript`} />
+          </div>
+          <div className="skill">
+            <ProgressBar animated variant="info" now={65} label={`TestCafe`} />
+          </div>
+          <div className="skill">
+            <ProgressBar animated variant="warning" now={60} label={`NodeJS`} />
+          </div>
+          <div className="skill">
+            <ProgressBar animated variant="danger" now={50} label={`ReactJS`} />
+          </div>
+          <div className="skill">
+            <ProgressBar animated variant="success" now={50} label={`MongoDB`} />
+          </div>
+          <div className="skill">
+            <ProgressBar animated variant="info" now={80} label={`Git`} />
+          </div>
         </div>
-        );
-      }
-      
-      export default App;
+
+      </FadeInSection>
+
+
+
+    </div>
+  );
+}
+
+export default App;
