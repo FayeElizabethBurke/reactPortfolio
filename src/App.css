@@ -43,6 +43,7 @@
   box-shadow:3px 6px 4px rgba(0, 0, 0, 0.12);
   border-radius: 5px;
   text-align: center !important;
+  border: 1.5px solid grey;
 }
 .box {
   background: url('bg.png');
