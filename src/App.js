@@ -32,10 +32,10 @@ function App() {
         <FadeInSection>
         <div className="bio">
             <p>I'm a web developer based in Manchester.</p>
-            <p>I write clean, straight-forward and clever applications.</p>
+            <p>I write clean, straight-forward, clever applications.</p>
             <p>Talk to me!</p>
             <p> • fayeelizabethburke@gmail.com  • </p>
-            <p> • ( +16 )0466546679  • </p>
+            <p> • ( +61 ) 0466546679  • </p>
         </div>
         
         </FadeInSection>
