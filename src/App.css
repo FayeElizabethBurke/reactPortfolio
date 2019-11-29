@@ -37,8 +37,8 @@
 .bio {
   margin-left:10%;
   margin-right:10%;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 3vh;
@@ -47,6 +47,14 @@
 }
 .box {
   background: url('bg.png');
-  height: 2vh;
+  height: 1vh;
   box-shadow:3px 6px 4px rgba(0,0,0,.25);
+  margin-bottom: 2%;
+}
+.skill {
+  margin: 2%;
+  font-size: 12px; 
+}
+.skills{
+  margin-top: 5%;
 }
