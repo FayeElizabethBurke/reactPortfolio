@@ -36,10 +36,8 @@
 .bio {
   margin-left:5%;
   margin-right:5%;
-  margin-top: 3%;
-  margin-bottom: 3%;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 1%;
   font-size: 3vh;
   background: rgba(250, 159, 159, 0.2);
   box-shadow:3px 6px 4px rgba(0, 0, 0, 0.12);
@@ -50,8 +48,8 @@
   background: url('bg.png');
   height: 1vh;
   box-shadow:3px 6px 4px rgba(0,0,0,.25);
-  margin-bottom: 5%;
-  margin-top: 5%;
+  margin-bottom: 3%;
+  margin-top: 3%;
 }
 .skill {
   margin: 2%;
@@ -80,6 +78,7 @@
 }
 .noMarg {
   margin-top: 0;
+  margin-bottom: 3%;
 }
 .modalButton{
   text-align: center !important; 
