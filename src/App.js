@@ -40,8 +40,6 @@ function App() {
           <p>I'm a web developer based in Manchester.</p>
           <p>I write clean, straight-forward, clever applications.</p>
           <p>Talk to me!</p>
-          <p> • fayeelizabethburke@gmail.com  • </p>
-          <p> • ( +61 ) 0466546679  • </p>
 
           <a href="https://github.com/FayeElizabethBurke" >
           <img src={gitLogo} alt={"#"} height={'50px'}/>
