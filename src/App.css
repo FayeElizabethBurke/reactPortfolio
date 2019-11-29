@@ -7,16 +7,44 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #86A7D9;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
-.App-link {
-  color: #09d3ac;
+/* //fade ins */
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 1200ms ease-out, transform 600ms ease-out,
+    visibility 1200ms ease-out;
+  will-change: opacity, transform, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+  
+}
+.bio {
+  margin-left:20%;
+  margin-right:20%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 3vh;
+  background: rgba(250, 159, 159, 0.85);
+  box-shadow:3px 6px 4px rgba(0,0,0,.25);
+}
+.box {
+  background: url('bg.png');
+  height: 2vh;
 }
