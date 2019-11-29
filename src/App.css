@@ -61,9 +61,6 @@
   margin-right: 5%;
   margin-bottom: 10%;
 }
-.project{
-  margin: 2%;
-}
 .modalButton{
   margin-top: 100%;
 }
@@ -72,5 +69,10 @@
 }
 .modal {
   background: rgba(250, 159, 159, 0.2)
+}
+.carousel {
+  width:65%;
+  height:30%;
+  margin: auto;
 }
 
