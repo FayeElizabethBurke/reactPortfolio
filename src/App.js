@@ -3,8 +3,35 @@ import icon from './icon.png';
 import gitLogo from './GitHub-Mark.png';
 import codewarsLogo from './codewars.png';
 import linkedinLogo from './linkedIn.png';
+import mattsBlog from './mattsBlog.PNG';
+import codeSnip from './codeSnip.PNG';
+import crInterface from './crInterface.PNG';
 import './App.css';
 import { ProgressBar } from 'react-bootstrap';
+import { Modal } from 'react-bootstrap';
+import { ButtonToolbar } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
+
+
+function MyVerticallyCenteredModal(props) {
+  return (
+    <Modal
+      {...props}
+      size="sm"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      
+      <Modal.Body>
+      
+        <h4>Contact Info:</h4>
+        <p>Email: fayeelizabethburke@gmail.com</p>
+        <p>Phone: (+64) 0466546679</p>
+      </Modal.Body>
+    
+    </Modal>
+  );
+}
 
 function FadeInSection(props) {
   const [isVisible, setVisible] = React.useState(false);
@@ -26,13 +53,29 @@ function FadeInSection(props) {
 }
 
 
+
+
 function App() {
+  const [modalShow, setModalShow] = React.useState(false);
   return (
     <div className="App">
       <header className="App-header">
         <img src={icon} className="App-logo" alt="logo" />
-        <div className="box" />
+        {/* contact modal */}
+        <ButtonToolbar>
+          <div className="modalButton">
+            <Button variant="outline-secondary" onClick={() => setModalShow(true)}>
+              Contact
+      </Button>
+            <MyVerticallyCenteredModal
+              show={modalShow}
+              onHide={() => setModalShow(false)}
+            />
+          </div>
+        </ButtonToolbar>
       </header>
+
+
       <div className="box" />
 
       {/* bio */}
@@ -73,7 +116,7 @@ function App() {
             <ProgressBar animated variant="warning" now={60} label={`NodeJS`} />
           </div>
           <div className="skill">
-            <ProgressBar animated variant="danger" now={50} label={`ReactJS`} />
+            <ProgressBar animated variant="danger" now={40} label={`ReactJS`} />
           </div>
           <div className="skill">
             <ProgressBar animated variant="success" now={50} label={`MongoDB`} />
@@ -85,7 +128,14 @@ function App() {
 
       </FadeInSection>
 
-
+      <FadeInSection>
+        <div className="box" />
+        <div className="projects">
+          <img className="project" src={mattsBlog} alt={"#"} height={'400px'} />
+          <img className="project" src={codeSnip} alt={"#"} height={'400px'} />
+          <img className="project" src={crInterface} alt={"#"} height={'400px'} />
+        </div>
+      </FadeInSection>
 
     </div>
   );
