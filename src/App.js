@@ -58,22 +58,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={icon} className="App-logo" alt="logo" />
-        {/* contact modal */}
-        <ButtonToolbar>
-          <div className="modalButton">
-            <Button variant="outline-secondary" onClick={() => setModalShow(true)}>
-              Contact
-      </Button>
-            <MyVerticallyCenteredModal
-              show={modalShow}
-              onHide={() => setModalShow(false)}
-            />
-          </div>
-        </ButtonToolbar>
       </header>
 
-
-      <div className="box" />
+      <div className="box noMarg" />
 
       {/* bio */}
       <FadeInSection>
@@ -92,7 +79,6 @@ function App() {
               <img src={codewarsLogo} alt={"#"} height={'50px'} />
             </a>
           </div>
-
         </div>
 
       </FadeInSection>
@@ -122,11 +108,10 @@ function App() {
             <ProgressBar animated variant="info" now={80} label={`Git`} />
           </div>
         </div>
-
       </FadeInSection>
 
       <FadeInSection>
-      <div className="box" />
+        <div className="box" />
         <Carousel>
           <Carousel.Item>
             <a rel="noopener noreferrer" target="_blank" href="http://www.matt-davey.com">
@@ -141,7 +126,6 @@ function App() {
               <p>NodeJS, React, MongoDB</p>
             </Carousel.Caption>
           </Carousel.Item>
-
           <Carousel.Item>
             <a rel="noopener noreferrer" target="_blank" href="https://github.com/FayeElizabethBurke/codeDiary">
               <img
@@ -170,11 +154,24 @@ function App() {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-
         <div className="box" />
       </FadeInSection>
+      {/* contact modal */}
+      <ButtonToolbar>
+
+        <div className="modalButton">
+          <Button variant="outline-secondary" onClick={() => setModalShow(true)}>
+            Contact Me.
+                </Button>
+          <MyVerticallyCenteredModal
+            show={modalShow}
+            onHide={() => setModalShow(false)}
+          />
+        </div>
+      </ButtonToolbar>
 
     </div>
+
   );
 }
 
