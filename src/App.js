@@ -17,7 +17,7 @@ function MyVerticallyCenteredModal(props) {
   return (
     <Modal
       {...props}
-      size="sm"
+      size="md"
       aria-labelledby="contained-modal-title-vcenter"
       centered
     >
@@ -25,8 +25,8 @@ function MyVerticallyCenteredModal(props) {
       <Modal.Body>
       
         <h4>Contact Info:</h4>
-        <p>Email: fayeelizabethburke@gmail.com</p>
-        <p>Phone: (+64) 0466546679</p>
+        <p><strong>Email:</strong> fayeelizabethburke@gmail.com</p>
+        <p><strong>Phone:</strong> (+64) 0466546679</p>
       </Modal.Body>
     
     </Modal>
@@ -131,9 +131,9 @@ function App() {
       <FadeInSection>
         <div className="box" />
         <div className="projects">
-          <img className="project" src={mattsBlog} alt={"#"} height={'400px'} />
-          <img className="project" src={codeSnip} alt={"#"} height={'400px'} />
-          <img className="project" src={crInterface} alt={"#"} height={'400px'} />
+          <a rel="noopener noreferrer" target="_blank" href="http://www.matt-davey.com"><img className="project" src={mattsBlog} alt={"#"} height={'400px'} /></a>
+          <a rel="noopener noreferrer" target="_blank" href="https://github.com/FayeElizabethBurke/codeDiary"><img className="project" src={codeSnip} alt={"#"} height={'400px'} /></a>
+          <a rel="noopener noreferrer" target="_blank" href="https://github.com/FayeElizabethBurke/rapidHit"><img className="project" src={crInterface} alt={"#"} height={'400px'} /></a>
         </div>
       </FadeInSection>
 
