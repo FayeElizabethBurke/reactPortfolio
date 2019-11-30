@@ -63,7 +63,8 @@
   margin-bottom: 10%;
 }
 .modalButton{
-  margin-top: 3%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 .links{
   margin-top: 3%;
@@ -84,4 +85,10 @@
 .modalButton{
   text-align: center !important; 
 }
-
+.btn-toolbar {
+background: url('bg.png');
+text-align: center;
+}
+.noBottom {
+  margin-bottom: 0;
+}

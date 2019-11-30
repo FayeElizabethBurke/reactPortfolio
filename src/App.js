@@ -154,13 +154,11 @@ function App() {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-        <div className="box" />
+        <div className="box noBottom" />
       </FadeInSection>
       {/* contact modal */}
-      <ButtonToolbar>
-
-        <div className="modalButton">
-          <Button variant="outline-secondary" onClick={() => setModalShow(true)}>
+      <div className="modalButton">
+          <Button variant="secondary" onClick={() => setModalShow(true)}>
             Contact Me.
                 </Button>
           <MyVerticallyCenteredModal
@@ -168,6 +166,8 @@ function App() {
             onHide={() => setModalShow(false)}
           />
         </div>
+      <ButtonToolbar>
+
       </ButtonToolbar>
 
     </div>
