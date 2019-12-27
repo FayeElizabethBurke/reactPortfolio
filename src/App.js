@@ -149,8 +149,8 @@ function App() {
               />
             </a>
             <Carousel.Caption>
-              <h3>CodeSnip</h3>
-              <p>NodeJS, EJS Templates, MongoDB</p>
+              <h3>Cloud Router Test Interface </h3>
+              <p>Testcafe, Vanilla JS</p>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -163,8 +163,8 @@ function App() {
               />
             </a>
             <Carousel.Caption>
-              <h3>rapidHit</h3>
-              <p>TestCafe</p>
+              <h3>Code Snip</h3>
+              <p>Mongo DB, NodeJS, EJS Templating</p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
