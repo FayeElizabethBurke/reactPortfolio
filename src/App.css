@@ -7,6 +7,9 @@
   height: 80vmin;
 }
 
+p {
+  color: black;
+}
 .App-header {
   background-color: rgb(134, 167, 217);
   min-height: 99vh;

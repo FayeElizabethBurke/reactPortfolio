@@ -137,7 +137,7 @@ function App() {
             </a>
             <Carousel.Caption>
               <h3>Chrome Dashboard Extension</h3>
-              <p>NodeJS, React, Chrome Developer</p>
+              <p>NASA API React, Chrome Developer</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
