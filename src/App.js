@@ -122,10 +122,12 @@ function App() {
                 alt="First slide"
               />
             </a>
+            <div className="carouselCaption">
             <Carousel.Caption>
               <h3>Matt-Davey.com</h3>
               <p>NodeJS, React, MongoDB</p>
             </Carousel.Caption>
+            </div>
           </Carousel.Item>
           <Carousel.Item>
             <a rel="noopener noreferrer" target="_blank" href="https://github.com/FayeElizabethBurke/browserDashboard">
@@ -135,10 +137,12 @@ function App() {
                 alt="Second slide"
               />
             </a>
+            <div className="carouselCaption">
             <Carousel.Caption>
               <h3>Chrome Dashboard Extension</h3>
               <p>NASA API React, Chrome Developer</p>
             </Carousel.Caption>
+            </div>
           </Carousel.Item>
           <Carousel.Item>
             <a rel="noopener noreferrer" target="_blank" href="https://github.com/FayeElizabethBurke/codeDiary">
@@ -148,10 +152,12 @@ function App() {
                 alt="Third slide"
               />
             </a>
+            <div className="carouselCaption">
             <Carousel.Caption>
               <h3>Cloud Router Test Interface </h3>
               <p>Testcafe, Vanilla JS</p>
             </Carousel.Caption>
+            </div>
           </Carousel.Item>
 
           <Carousel.Item>
@@ -162,10 +168,12 @@ function App() {
                 alt="Third slide"
               />
             </a>
+            <div className="carouselCaption">
             <Carousel.Caption>
               <h3>Code Snip</h3>
               <p>Mongo DB, NodeJS, EJS Templating</p>
             </Carousel.Caption>
+            </div>
           </Carousel.Item>
         </Carousel>
         <div className="box noBottom" />

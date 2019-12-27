@@ -48,6 +48,14 @@ p {
   text-align: center !important;
   border: 1.5px solid grey;
 }
+.carouselCaption {
+  background-color: white;
+  border-radius: 15px 50px;
+}
+.h3 {
+  color: black;
+}
+
 .box {
   background: url('bg.png');
   height: 1vh;
