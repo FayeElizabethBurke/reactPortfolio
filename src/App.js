@@ -4,6 +4,7 @@ import gitLogo from './GitHub-Mark.png';
 import codewarsLogo from './codewars.png';
 import linkedinLogo from './linkedIn.png';
 import mattsBlog from './mattsBlog.jpg';
+import chromeExten from './chromeExtension.PNG';
 import codeSnip from './codeSnip.PNG';
 import crInterface from './crInterface.PNG';
 import './App.css';
@@ -124,6 +125,19 @@ function App() {
             <Carousel.Caption>
               <h3>Matt-Davey.com</h3>
               <p>NodeJS, React, MongoDB</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <a rel="noopener noreferrer" target="_blank" href="https://github.com/FayeElizabethBurke/browserDashboard">
+              <img
+                className="d-block w-100"
+                src={chromeExten}
+                alt="Second slide"
+              />
+            </a>
+            <Carousel.Caption>
+              <h3>Chrome Dashboard Extension</h3>
+              <p>NodeJS, React, Chrome Developer</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
