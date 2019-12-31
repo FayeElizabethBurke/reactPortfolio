@@ -130,7 +130,7 @@ function App() {
             </div>
           </Carousel.Item>
           <Carousel.Item>
-            <a rel="noopener noreferrer" target="_blank" href="https://github.com/FayeElizabethBurke/browserDashboard">
+            <a rel="noopener noreferrer" target="_blank" href="https://priceless-allen-b502e3.netlify.com/">
               <img
                 className="d-block w-100"
                 src={chromeExten}
