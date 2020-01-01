@@ -4,7 +4,7 @@ import gitLogo from './GitHub-Mark.png';
 import codewarsLogo from './codewars.png';
 import linkedinLogo from './linkedIn.png';
 import mattsBlog from './mattsBlog.jpg';
-import chromeExten from './chromeExtension.PNG';
+import chromeExten from './chromeExtension.jpg';
 import codeSnip from './codeSnip.PNG';
 import crInterface from './crInterface.PNG';
 import './App.css';
