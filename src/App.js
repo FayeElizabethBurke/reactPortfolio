@@ -4,7 +4,7 @@ import gitLogo from './GitHub-Mark.png';
 import codewarsLogo from './codewars.png';
 import linkedinLogo from './linkedIn.png';
 import mattsBlog from './mattsBlog.jpg';
-import chromeExten from './chromeExtension.jpg';
+import chromeExten from './chromeExtension.JPG';
 import codeSnip from './codeSnip.PNG';
 import crInterface from './crInterface.PNG';
 import './App.css';
@@ -94,23 +94,23 @@ function App() {
             <ProgressBar animated variant="success" now={60} label={`JavaScript`} />
           </div>
           <div className="skill">
-            <ProgressBar animated variant="info" now={65} label={`TestCafe`} />
+            <ProgressBar variant="info" now={65} label={`TestCafe`} />
           </div>
           <div className="skill">
             <ProgressBar animated variant="warning" now={60} label={`NodeJS`} />
           </div>
           <div className="skill">
-            <ProgressBar animated variant="danger" now={40} label={`ReactJS`} />
+            <ProgressBar variant="danger" now={40} label={`ReactJS`} />
           </div>
           <div className="skill">
             <ProgressBar animated variant="success" now={50} label={`MongoDB`} />
           </div>
           <div className="skill">
-            <ProgressBar animated variant="info" now={80} label={`Git`} />
+            <ProgressBar variant="info" now={80} label={`Git`} />
           </div>
         </div>
       </FadeInSection>
-
+      <div className="box" />
       <FadeInSection>
         <div className="box" />
         <Carousel>
@@ -133,6 +133,7 @@ function App() {
             <a rel="noopener noreferrer" target="_blank" href="https://priceless-allen-b502e3.netlify.com/">
               <img
                 className="d-block w-100"
+                height="500"
                 src={chromeExten}
                 alt="Second slide"
               />
