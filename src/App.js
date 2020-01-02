@@ -59,6 +59,7 @@ function App() {
 
   const carouselDescription = {
     background: `white`,
+    color: `black`
   }
   return (
     <div className="App">
