@@ -56,6 +56,10 @@ function FadeInSection(props) {
 
 function App() {
   const [modalShow, setModalShow] = React.useState(false);
+
+  const carouselDescription = {
+    background: `white`,
+  }
   return (
     <div className="App">
       <header className="App-header">
@@ -125,11 +129,34 @@ function App() {
             </a>
             <div className="carouselCaption">
             <Carousel.Caption>
-              <h3>Matt-Davey.com</h3>
-              <p>NodeJS, React, MongoDB</p>
+              <div style = {carouselDescription}>
+                <h3>Matt-Davey.com</h3>
+                <p>NodeJS, React, MongoDB</p>
+              </div>
             </Carousel.Caption>
             </div>
           </Carousel.Item>
+          
+
+
+          <Carousel.Item>
+            <a rel="noopener noreferrer" target="_blank" href="https://laughing-einstein-674f51.netlify.com/">
+              <img
+                className="d-block w-100"
+                src={gameRegister}
+                alt="Third slide"
+              />
+            </a>
+            <div className="carouselCaption">
+            <Carousel.Caption>
+            <div style = {carouselDescription}>
+                <h3>Game Register</h3>
+                <p>Figma design, MERN execution- ONGOING</p>
+              </div>
+            </Carousel.Caption>
+            </div>
+          </Carousel.Item>
+
           <Carousel.Item>
             <a rel="noopener noreferrer" target="_blank" href="https://priceless-allen-b502e3.netlify.com/">
               <img
@@ -141,25 +168,10 @@ function App() {
             </a>
             <div className="carouselCaption">
             <Carousel.Caption>
+            <div style = {carouselDescription}>
               <h3>Chrome Dashboard Extension</h3>
               <p>NASA API React, Chrome Developer</p>
-            </Carousel.Caption>
             </div>
-          </Carousel.Item>
-
-
-          <Carousel.Item>
-            <a rel="noopener noreferrer" target="_blank" href="*">
-              <img
-                className="d-block w-100"
-                src={gameRegister}
-                alt="Third slide"
-              />
-            </a>
-            <div className="carouselCaption">
-            <Carousel.Caption>
-              <h3>Game Register</h3>
-              <p>Figma, React- ONGOING</p>
             </Carousel.Caption>
             </div>
           </Carousel.Item>
@@ -174,8 +186,10 @@ function App() {
             </a>
             <div className="carouselCaption">
             <Carousel.Caption>
+            <div style = {carouselDescription}>
               <h3>Cloud Router Test Interface </h3>
               <p>Testcafe, Vanilla JS</p>
+            </div>
             </Carousel.Caption>
             </div>
           </Carousel.Item>
