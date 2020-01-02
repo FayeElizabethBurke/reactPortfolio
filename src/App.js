@@ -7,6 +7,7 @@ import mattsBlog from './mattsBlog.jpg';
 import chromeExten from './chromeExtension.JPG';
 import codeSnip from './codeSnip.PNG';
 import crInterface from './crInterface.PNG';
+import gameRegister from './gameRegister.JPG';
 import './App.css';
 import { ProgressBar } from 'react-bootstrap';
 import { Modal } from 'react-bootstrap';
@@ -145,12 +146,30 @@ function App() {
             </Carousel.Caption>
             </div>
           </Carousel.Item>
+
+
+          <Carousel.Item>
+            <a rel="noopener noreferrer" target="_blank" href="*">
+              <img
+                className="d-block w-100"
+                src={gameRegister}
+                alt="Third slide"
+              />
+            </a>
+            <div className="carouselCaption">
+            <Carousel.Caption>
+              <h3>Game Register</h3>
+              <p>Figma, React- ONGOING</p>
+            </Carousel.Caption>
+            </div>
+          </Carousel.Item>
+
           <Carousel.Item>
             <a rel="noopener noreferrer" target="_blank" href="https://github.com/FayeElizabethBurke/codeDiary">
               <img
                 className="d-block w-100"
                 src={crInterface}
-                alt="Third slide"
+                alt="Fourth slide"
               />
             </a>
             <div className="carouselCaption">
@@ -166,7 +185,7 @@ function App() {
               <img
                 className="d-block w-100"
                 src={codeSnip}
-                alt="Third slide"
+                alt="Fifth slide"
               />
             </a>
             <div className="carouselCaption">
